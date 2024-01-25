@@ -21,7 +21,7 @@
 	```
 1. Uncomment this line:
 
-	https://github.com/wiseaidev/yew-navbar/blob/fa63dd4aa694a836257e4d2a532b9eb6e5a95272/examples/tailwind/index.html#L5
+	https://github.com/wiseaidev/yew-navbar/blob/4ba47fbd3a01e0b9ede6704090b8e000f3070d2d/examples/tailwind/index.html#L5
 
 1. Stop and rerun the client:
 
