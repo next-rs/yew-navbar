@@ -8,6 +8,9 @@ homepage = "https://github.com/wiseaidev/yew-navbar"
 documentation = "https://docs.rs/yew-navbar/"
 authors = ["Mahmoud Harmouch <oss@wiseai.dev>"]
 edition = "2021"
+exclude = ["/examples"]
+keywords = ["yew", "rust", "navbar", "yew-navbar"]
+categories = ["web-programming", "web"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
