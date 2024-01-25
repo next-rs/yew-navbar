@@ -1,0 +1,21 @@
+[package]
+name = "yew-navbar"
+version = "0.1.0"
+description = "🍔 A highly customizable and responsive navbar component for the Yew framework."
+license = "MIT"
+repository = "https://github.com/wiseaidev/yew-navbar"
+homepage = "https://github.com/wiseaidev/yew-navbar"
+documentation = "https://docs.rs/yew-navbar/"
+authors = ["Mahmoud Harmouch <oss@wiseai.dev>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.21.0", features = ["csr"] }
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = "thin"
+strip = "symbols"
