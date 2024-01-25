@@ -11,7 +11,7 @@
 1. Navigate to the application directory.
 
 	```bash
-	cd yew-navbar/examples
+	cd yew-navbar/examples/tailwind
 	```
 
 1. Run the client:
