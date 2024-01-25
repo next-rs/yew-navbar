@@ -7,7 +7,7 @@
 
 ---
 
-![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sjuwe2ydeg3p1zmvqk2p.gif)
+![Demo](https://github.com/wiseaidev/yew-navbar/assets/62179149/3e322002-844f-4abd-b4da-ba985ab127cb)
 
 ---
 
