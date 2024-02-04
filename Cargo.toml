@@ -1,6 +1,6 @@
 [package]
 name = "yew-navbar"
-version = "0.1.0"
+version = "0.1.1"
 description = "🍔 A highly customizable and responsive navbar component for the Yew framework."
 license = "MIT"
 repository = "https://github.com/wiseaidev/yew-navbar"
@@ -10,15 +10,18 @@ authors = ["Mahmoud Harmouch <oss@wiseai.dev>"]
 edition = "2021"
 exclude = ["/examples"]
 keywords = ["yew", "rust", "navbar", "yew-navbar"]
-categories = ["web-programming", "web"]
+categories = ["web-programming", "no-std"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yew = { version = "0.21.0", features = ["csr"] }
+yew = "0.21.0"
 
 [profile.release]
 codegen-units = 1
 opt-level = "z"
 lto = "thin"
 strip = "symbols"
+
+[badges]
+maintenance = { status = "actively-developed" }
